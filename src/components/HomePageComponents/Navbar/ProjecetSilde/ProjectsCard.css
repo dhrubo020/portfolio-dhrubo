@@ -1,0 +1,17 @@
+.bg-project-card{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.card-text{
+    position: relative;
+}
+.card{
+  border: none;
+}
+.card:hover{
+  box-shadow: 0px 6px 10px 3px grey
+}

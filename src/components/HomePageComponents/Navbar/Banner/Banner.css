@@ -1,0 +1,35 @@
+.transition-right-to-left{
+    position: relative;
+    -webkit-animation-name: example-rtl; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    -webkit-animation-duration: 3s; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    animation-name: example-rtl;
+    animation-duration: 3s;
+}
+@keyframes example-rtl {
+    from   {color:green; left:200px; top:0px;}
+    to  {color:white; left:0px; top:0px;}
+}
+
+.transition-left-to-right{
+    position: relative;
+    -webkit-animation-name: example-ltr; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    -webkit-animation-duration: 2s; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    animation-name: example-ltr;
+    animation-duration: 2s;
+}
+@keyframes example-ltr {
+    from  {color:green; right:200px; top:0px;}
+    to  {color:white; left:0px; top:0px;}
+}
+
+.transition-nav{
+    position: relative;
+    -webkit-animation-name: example; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    -webkit-animation-duration: 3s; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    animation-name: example-nav;
+    animation-duration: 3s;
+}
+@keyframes example-nav {
+    0%   {left:200px; top:0px;}
+    100%  {left:0px; top:0px;}
+}

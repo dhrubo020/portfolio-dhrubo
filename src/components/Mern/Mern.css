@@ -1,0 +1,8 @@
+.mern-img{
+    position: fixed;
+    top: 200px;
+    left: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .mern-img {display: none;}
+  }

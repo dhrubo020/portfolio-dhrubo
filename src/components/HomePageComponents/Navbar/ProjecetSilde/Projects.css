@@ -1,0 +1,11 @@
+.bg-slider{
+    box-shadow: green 0px 0px 23px 3px;
+    border-radius: 10px;
+    margin: 0 200px;
+}
+@media only screen and (max-width: 600px) {
+    .bg-slider {margin: 0 200px;}
+  }
+.project-slides{
+    margin: 100px 0;
+}

@@ -1,0 +1,37 @@
+.bg-skills{
+    background-image: url('../../images/bg/biography-bg.png');
+    background-size: cover;
+}
+
+.transition-right-to-left{
+    position: relative;
+    -webkit-animation-name: hide, transition-right-to-left; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    -webkit-animation-duration: 2s; /* গুগল ক্রম, অপেরা ও সাফারির জন্য */
+    animation-name: hide, transition-right-to-left;
+    animation-duration: 2s;
+}
+.proficient.transition-right-to-left{
+    animation-delay: 0s, 0s;
+}
+.comfortable.transition-right-to-left{
+    animation-delay: 0s, 2s;
+}
+.concepts.transition-right-to-left{
+    animation-delay: 0s, 2s;
+}
+.tools.transition-right-to-left{
+    animation-delay: 0s, 2s;
+}
+
+
+
+@keyframes hide
+{ 
+    from { opacity: 0; } to { opacity: 0 }
+}
+@keyframes transition-right-to-left
+{ 
+    0% { opacity: 0; right: -200px; }
+    1% { opacity: 1; right: -200px; }
+    100% { opacity: 1; right:  0px; } 
+} 
