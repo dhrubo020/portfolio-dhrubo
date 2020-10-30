@@ -146,8 +146,8 @@ const Projects = () => {
     return (
         <div className="container">
             <div className="text-center my-5">
-                <h4 className="text-success">Portfolio</h4>
-                <p className="text-white ">Some of the projects I worked on</p>
+                <h3 className="text-brand">Portfolio</h3>
+                <p className="text-white text-bold-md">Some of the projects I worked on</p>
             </div>
 
             <div  >

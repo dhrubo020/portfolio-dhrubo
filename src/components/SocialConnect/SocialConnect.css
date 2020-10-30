@@ -44,7 +44,7 @@
   }
 
   a{
-    color: white;
+    color: rgb(177, 177, 177);
     margin-right: 10px;
   }
   a:link {
@@ -56,9 +56,10 @@
   }
   
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    /* font-weight: 700; */
   }
   
   a:active {
-    text-decoration: underline;
+    text-decoration: none;
   }

@@ -1,13 +1,10 @@
 import React from 'react';
-import profileImage from '../../../../images/profileImage.png';
+import profileImage from '../../../../images/profilepic.png';
 // import Skills from '../Skills/Skills';
 import './Banner.css'
 
 const Banner = () => {
-    const charPoses = {
-        enter: { y: 0 },
-        exit: { y: ({ initialOffset }) => initialOffset }
-      };
+    
     const tags = ['JavaScript-Development', 'Responsive-Design', 'PSD-to-Web', 'UI/UX', 'REST-API', 'E-commerce', 'MongoDB']
     return (
         <div>

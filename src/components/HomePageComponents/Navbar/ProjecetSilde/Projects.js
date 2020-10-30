@@ -148,7 +148,7 @@ const Projects = () => {
     return (
         <div className="project-slides">
             <div className=" text-center ">
-                <h2 className="text-success">Portfolio</h2>
+                <h2 className="text-brand">Portfolio</h2>
                 <h4 className="text-white mb-5 ">Some of the projects I worked on</h4>
             </div>
             {/* <div className="card-columns">

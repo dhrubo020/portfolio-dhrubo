@@ -14,7 +14,7 @@ const Mern = () => {
                 <img src={node} height='40' alt=""/> <br/><br/> 
                 <img src={mongo} height='40' alt=""/> <br/><br/> 
                 <img src={express} height='40' alt=""/> <br/><br/> 
-                <div className="text-center" style={{width:'4px', height:'150px', background:'green', marginLeft:'15px'}}>
+                <div className="text-center" style={{width:'4px', height:'150px', background:'darkgreen', marginLeft:'15px'}}>
 
                 </div>
             </div>
