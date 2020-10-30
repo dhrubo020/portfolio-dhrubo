@@ -27,22 +27,6 @@ const Projects = () => {
             github: 'https://github.com/dhrubo020/creative-agency-client'
         },
         {
-            title: 'Red Onion Restaurant',
-            responsive: true,
-            category: ['React', 'Node', 'Bootstrap', 'MongoDB', 'Firebase'],
-            image: redOnion,
-            link: 'https://hot-onion-ffd33.web.app/',
-            github: 'https://github.com/dhrubo020/red-onion-client'
-        },
-        {
-            title: 'Volunteer Network',
-            responsive: false,
-            category: ['React', 'Node', 'Bootstrap', 'MongoDB', 'Firebase'],
-            image: volunteer,
-            link: 'https://volunteer-network-a5800.web.app/',
-            github: 'https://github.com/dhrubo020/volunteer-client-private'
-        },
-        {
             title: 'Travel BD',
             responsive: false,
             category: ['React', 'Node', 'Bootstrap', 'MongoDB', 'Firebase'],
@@ -58,6 +42,23 @@ const Projects = () => {
             link: 'https://mybuddy.netlify.app/',
             github: 'https://github.com/dhrubo020/buddy'
         },
+        {
+            title: 'Red Onion Restaurant',
+            responsive: true,
+            category: ['React', 'Node', 'Bootstrap', 'MongoDB', 'Firebase'],
+            image: redOnion,
+            link: 'https://hot-onion-ffd33.web.app/',
+            github: 'https://github.com/dhrubo020/red-onion-client'
+        },
+        {
+            title: 'Volunteer Network',
+            responsive: false,
+            category: ['React', 'Node', 'Bootstrap', 'MongoDB', 'Firebase'],
+            image: volunteer,
+            link: 'https://volunteer-network-a5800.web.app/',
+            github: 'https://github.com/dhrubo020/volunteer-client-private'
+        },
+        
         {
             title: 'Chrome Home Tab',
             responsive: false,
@@ -99,7 +100,7 @@ const Projects = () => {
             github: 'https://github.com/dhrubo020/hot-gadgets1'
         },
         {
-            title: 'Hot Gadgets',
+            title: 'Panda Commerce',
             responsive: false,
             category: ['HTML', 'CSS', 'Bootstrap'],
             image: pandaCommerce,
@@ -143,16 +144,20 @@ const Projects = () => {
         ]
     };
     return (
-        <div>
+        <div className="container">
             <div className="text-center my-5">
                 <h4 className="text-success">Portfolio</h4>
-                <p className="text-warning ">Some of the projects I worked on</p>
+                <p className="text-white ">Some of the projects I worked on</p>
             </div>
-            <div className="card-columns">
-                {
-                    allProjects.map(each => <ProjectsCard data={each} />)
-                }
+
+            <div  >
+                <div className="card-columns" style={{marginTop:'50px'}}>
+                    {
+                        allProjects.map(each => <ProjectsCard data={each} />)
+                    }
+                </div>
             </div>
+
 
             {/* <Slider className="mx-2 bg-slider" {...settings}>
 

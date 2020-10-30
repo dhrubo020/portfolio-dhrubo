@@ -18,20 +18,27 @@ const Navbar = () => {
                     <ul className="navbar-nav ml-auto transition-ttb">
 
                     <li className="nav-item mx-md-4">
-                            <Link className="nav-link  " to="/skills"> Skills </Link>
+                            <Link className="nav-link text-white btn-brand " to="/"> Home </Link>
+                        </li>
+
+                        <li className="nav-item mx-md-4">
+                            <Link className="nav-link text-white btn-brand " to="/skills"> About </Link>
                         </li>
                         <li className="nav-item mx-md-4">
-                            <Link className="nav-link  " to="/projects"> Projects </Link>
+                            <Link className="nav-link text-white btn-brand" to="/projects"> Projects </Link>
                         </li>
                         <li className="nav-item mx-md-4">
-                            <Link className="nav-link text-white" to="#"> Blog </Link>
+                            <Link className="nav-link text-white btn-brand" to="/blog"> Blog </Link>
                         </li>
-                        
+
                         <li className="nav-item mx-md-4">
-                            <Link className="nav-link text-white " to="#" > About Me </Link>
-                        </li>
-                        <li className="nav-item mx-md-4">
-                            <Link className="nav-link text-white " href="#" > Resume </Link>
+                            <a className="nav-link text-white btn-brand"
+                                target="_blank"
+                                href="https://drive.google.com/file/d/1CFU5o89uJ9HM8qBpkpfCP1Bt8M3gDY0M/view"
+                                download="Diptonil_Singho_Dhrubo_CV.pdf"
+                            >
+                                Resume
+                            </a>
                         </li>
                     </ul>
 

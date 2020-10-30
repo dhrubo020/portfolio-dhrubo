@@ -44,7 +44,7 @@ const Skills = () => {
     ]
     return (
         <div className="">
-            <div className="text-center">
+            <div className="text-center text-brand">
                 <h4>Web Development Skills</h4>
             </div>
             <div className="p-3">

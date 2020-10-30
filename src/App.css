@@ -15,10 +15,12 @@ body{
 .btn-brand-fill:focus{
     outline: none;
     background-color: green;
+    color: white;
 }
 .btn-brand{
     outline: none;
-    border: 3px solid green;
+    border: none;
+    /* border: 3px solid green; */
     padding: 4px 15px;
     margin: 10px 0 10px 0;
     background-color: rgba(62, 196, 62, 0.522);
@@ -31,6 +33,7 @@ body{
 .btn-brand:focus{
     outline: none;
     background-color: green;
+    color: white;
 }
 .text-bold-md{
     font-weight: 400;
@@ -45,3 +48,42 @@ body{
 .text-brand{
     color: rgb(0, 155, 26);
 }
+.center {
+    display: flex;
+    flex: no-wrap;
+    justify-content: center;
+  }
+
+  .zoom {
+    transition: transform 1s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  @media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+  }

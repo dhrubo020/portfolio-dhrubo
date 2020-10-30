@@ -1,4 +1,5 @@
 import React from 'react';
+import Connect from '../Connect/Connect';
 import Banner from '../HomePageComponents/Navbar/Banner/Banner';
 import Footer from '../HomePageComponents/Navbar/Footer/Footer';
 import GetInTouch from '../HomePageComponents/Navbar/GetInTouch/GetInTouch';

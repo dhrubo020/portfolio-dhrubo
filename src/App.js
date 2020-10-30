@@ -11,6 +11,7 @@ import Footer from './components/HomePageComponents/Navbar/Footer/Footer';
 import Navbar from './components/HomePageComponents/Navbar/Navbar';
 import Mern from './components/Mern/Mern';
 import SocialConnect from './components/SocialConnect/SocialConnect';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
 
           <Route exact path='/'> <LandingPage /> </Route>
           <Route path='/skills'> <SkillsPage /> </Route>
+          <Route path='/blog'> <Blog/> </Route>
           <Route path='/projects'> <Projects /> </Route>
           <Route path='*'><h5>404 Error</h5></Route>
          

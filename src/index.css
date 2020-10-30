@@ -5,7 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(88, 211, 88);
+  /* background-color: rgb(88, 211, 88); */
+  /* background: rgb(13,120,5);
+  background: linear-gradient(90deg, rgba(13,120,5,1) 0%, rgba(99,208,68,1) 12%); */
+  background: rgb(9,124,0);
+background: linear-gradient(90deg, rgba(9,124,0,1) 0%, rgba(105,217,73,1) 18%);
+}
+@media only screen and (max-width: 600px) {
+  body{
+    /* background: rgb(22,129,15);
+background: linear-gradient(90deg, rgba(22,129,15,1) 0%, rgba(101,208,68,1) 7%); */
+background: rgb(88, 211, 88);
+  }
 }
 
 code {
