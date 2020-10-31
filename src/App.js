@@ -13,37 +13,70 @@ import Mern from './components/Mern/Mern';
 import SocialConnect from './components/SocialConnect/SocialConnect';
 import Blog from './components/Blog/Blog';
 
+import ParticleComponent from "./ParticleComponent";
+// import Particles from 'react-particles-js';
+
+
 function App() {
-  return (
-    <div className="App">
-      {/* <BgParticles>
-        <Hero>
-          <div style={{ zIndex: '2'}}> */}
 
-      <BrowserRouter>
-        <Navbar />
-        <Mern/>
-        <SocialConnect/>
-        <Switch>
+	const styles = {
+		root: {
+			fontFamily: "sans-serif",
+			textAlign: "center",
+			height: "100%",
+			//   background: "#222",
+			display: "flex",
+			flex: "wrap",
+			justifyContent: "center",
+			alignItems: "center"
+		}
+	};
 
-          <Route exact path='/'> <LandingPage /> </Route>
-          <Route path='/skills'> <SkillsPage /> </Route>
-          <Route path='/blog'> <Blog/> </Route>
-          <Route path='/projects'> <Projects /> </Route>
-          <Route path='*'><h5>404 Error</h5></Route>
-         
-        </Switch>
-        <div className="container mt-5">
-            <Footer />
-          </div>
-      </BrowserRouter>
-      {/* </div>
+	return (
+		<div className="App">
+			<BrowserRouter>
+				<div
+					style={{
+						position: "absolute",
+						top: 0,
+						left: 0,
+						width: "100%",
+						height: "100%"
+					}}
+				>
+					<ParticleComponent />
+					<div
+						style={{
+							position: "absolute !important",
+							top: 0,
+							left: 0,
+							width: "100%",
+							height: "100%"
+						}}
+					>
+						{/* <Navbar /> */}
+						{/* You can render <Route> and <NavTabs /> here */}
+					</div>
+				</div>
+				<Navbar />
+				<Mern />
+				<SocialConnect />
+				<Switch>
 
-        </Hero>
-      </BgParticles> */}
+					<Route exact path='/'> <LandingPage /> </Route>
+					<Route path='/skills'> <SkillsPage /> </Route>
+					<Route path='/blog'> <Blog /> </Route>
+					<Route path='/projects'> <Projects /> </Route>
+					<Route path='*'><h5>404 Error</h5></Route>
 
-    </div>
-  );
+				</Switch>
+				<div className="container mt-5">
+					<Footer />
+				</div>
+			</BrowserRouter>
+
+		</div>
+	);
 }
 
 

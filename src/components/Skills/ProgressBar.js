@@ -14,7 +14,7 @@ const ProgressBar = (props) => {
         <div>
             <div className="progress-div mt-2" style={{ width: '100%' }}>
                 <div className="progress p-3 text-white" style={{ width: `${value}%` }} >
-                    <p style={{fontSize:'18px'}}> {props.title} </p>
+                    <p className="" style={{fontSize:'18px'}}> {props.title} </p>
                     <span className="px-1" style={{marginLeft: 'auto' }}>{value}%</span>
                 </div>
             </div>

@@ -7,39 +7,39 @@ const Skills = () => {
     const skills = [
         {
             title: 'HTML5',
-            percent: .8,
+            percent: .9,
         },
         {
             title: 'CSS3',
-            percent: .75,
+            percent: .85,
         },
         {
             title: 'Bootstrap4',
-            percent: .8,
+            percent: .9,
         },
         {
             title: 'JavaScript / ES6',
-            percent: .78,
+            percent: .9,
         },
         {
             title: 'ReactJS',
-            percent: .75,
+            percent: .9,
         },
         {
             title: 'NodeJS',
-            percent: .70,
+            percent: .80,
         },
         {
             title: 'Firebase Auth',
-            percent: .70,
+            percent: .80,
         },
         {
             title: 'MongoDB',
-            percent: .75,
+            percent: .85,
         },
         {
             title: 'MySql',
-            percent: .75,
+            percent: .90,
         }
     ]
     return (

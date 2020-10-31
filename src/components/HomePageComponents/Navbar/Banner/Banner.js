@@ -5,7 +5,7 @@ import './Banner.css'
 
 const Banner = () => {
     
-    const tags = ['JavaScript-Development', 'Responsive-Design', 'PSD-to-Web', 'UI/UX', 'REST-API', 'E-commerce', 'MongoDB']
+    const tags = ['ReactJS', 'NodeJS', 'MongoDB','REST-API','E-commerce','Responsive-Design', 'UI/UX' ]
     return (
         <div>
             <div className="container mt-2">
