@@ -46,7 +46,7 @@ const Connect = () => {
                         <input name="user_email" onChange={handleChange} type="text" className="form-control"   placeholder="Email" required/>
                     </div>
                     <div className="form-group">
-                        <input name="message" onChange={handleChange} type="text" className="form-control py-5"   placeholder="Your Message" required/>
+                        <textarea name="message" onChange={handleChange} type="text" className="form-control py-3"   placeholder="Your Message" required/>
                     </div>
                     <input type="submit" className="btn-brand" value="Send" />
                 </form>

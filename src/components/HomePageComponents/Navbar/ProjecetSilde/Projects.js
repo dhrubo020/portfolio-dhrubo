@@ -166,7 +166,7 @@ const Projects = () => {
             </Slider>
             <div className="mt-5 text-center">
                 <Link to='/projects'>
-                    <button className="btn-brand-fill">See More ...</button>
+                    <button className="btn btn-brand-fill">See More ...</button>
                 </Link>
             </div>
         </div>

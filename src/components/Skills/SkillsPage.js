@@ -4,8 +4,8 @@ import Skills from './Skills';
 
 const SkillsPage = () => {
 
-    const proficient = ["Javascript", "ES6", "ReactJS", "BootStrap4", "HTML5", "CSS3", "C++"]
-    const comfortable = ["NodeJS", "ExpressJS", "REST-API", "MongoDB", "Firebase"]
+    const proficient = ["Javascript", "ES6", "BootStrap4", "HTML5", "CSS3", "C++"]
+    const comfortable = ["ReactJS", "NodeJS", "ExpressJS", "REST-API", "JWT", "MVC", "MongoDB", "Firebase"]
     const concepts = ["SDLC", "Problem Solving", "Data-Structure", "Algorithm", "OOP", "NLP"]
     const tools = ["Git", "Heroku", "Netlify", "VS-Code", "Chrome-Dev-Tool", "CodeBlocks", "Eclipse", "Slack"]
 
@@ -18,8 +18,8 @@ const SkillsPage = () => {
 
                 <div className="col-md-6 col-sm-12">
                     <div className="text-white">
-                        <CategorySkills category={"Proficient"} data={proficient}/>
                         <CategorySkills category={"Comfortable"} data={comfortable}/>
+                        <CategorySkills category={"Proficient"} data={proficient}/>
                         <CategorySkills category={"Concepts"} data={concepts}/>
                         <CategorySkills category={"Tools"} data={tools}/>
                         {/* <div className="proficient transition-right-to-left ">

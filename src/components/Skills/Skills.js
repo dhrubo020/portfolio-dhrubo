@@ -52,7 +52,6 @@ const Skills = () => {
                     skills.map(each => <ProgressBar width={"90%"} title={each.title} percent={each.percent} />)
                 }
             </div>
-
         </div>
     );
 };

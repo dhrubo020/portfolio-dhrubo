@@ -45,18 +45,16 @@ function App() {
 					}}
 				>
 					<ParticleComponent />
-					<div
+					{/* <div
 						style={{
 							position: "absolute !important",
 							top: 0,
 							left: 0,
 							width: "100%",
-							height: "100%"
+							height: "100vh"
 						}}
 					>
-						{/* <Navbar /> */}
-						{/* You can render <Route> and <NavTabs /> here */}
-					</div>
+					</div> */}
 				</div>
 				<Navbar />
 				<Mern />
@@ -68,7 +66,6 @@ function App() {
 					<Route path='/blog'> <Blog /> </Route>
 					<Route path='/projects'> <Projects /> </Route>
 					<Route path='*'><h5>404 Error</h5></Route>
-
 				</Switch>
 				<div className="container mt-5">
 					<Footer />

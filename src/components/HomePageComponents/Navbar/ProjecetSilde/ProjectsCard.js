@@ -5,7 +5,7 @@ import './ProjectsCard.css';
 
 
 const ProjectsCard = ({ data }) => {
-
+    
     return (
         <div>
 
@@ -20,12 +20,12 @@ const ProjectsCard = ({ data }) => {
                     </small>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
-                    <Link to={data.github}>
+                    <a href={data.github} target="_blank">
                         Github
-                    </Link> &nbsp;
-                        <Link to={data.link} >
-                            Live
-                    </Link>
+                    </a> &nbsp;
+                        <a href={data.link} target="_blank">
+                        Live
+                    </a>
 
                 </div>
 

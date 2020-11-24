@@ -26,11 +26,8 @@ const ProjectsCard = ({ data }) => {
                         <a href={data.link} target="_blank">
                             Live
                     </a>
-
                 </div>
-
             </div>
-
         </div>
     );
 };

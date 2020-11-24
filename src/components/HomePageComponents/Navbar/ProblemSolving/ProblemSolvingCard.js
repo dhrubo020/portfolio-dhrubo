@@ -10,7 +10,7 @@ const ProblemSolvingCard = ({ data }) => {
                     <span className="p-1 text-white text-bold-md">{data.oj}</span>
                     <div className="bg-warning" style={{ height: '3px', width: 'auto', borderRadius: '3px' }}>
                     </div>
-                    <CountUp start={3} duration={10} end={data.solved} style={{ fontWeight: '700', fontSize: '30px' }} />
+                    <CountUp start={1} duration={5} end={data.solved} style={{ fontWeight: '700', fontSize: '30px' }} />
                      <span style={{ fontWeight: '700', fontSize: '30px' }}>+</span>   
                 </div>
             </div>
